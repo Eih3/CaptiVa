@@ -1,6 +1,6 @@
-# CaptiVa - Solution Portail Captif 
+# CaptiVa - Solution Portail Captif
 
-Pilon, easy wifi hotspot for Raspberry Pi, pay with bitcoin.
+CaptiVa est une solution **Open Source** pour le partage sécurisé d'une connexion **Internet**. Il s'agit d'un point d'accès **WiFi** entièrement paramètrable par l'administrateur. Le client se connecte à ce dernier et il est automatiquement redirigé vers une page d'autentification. Après avoir rentré ses identifiants, le client dispose d'une connexion sécurisé à **Internet**. Quand à l'administrateur, il peut voir en temps réel les sites visités par ses clients.
 
 > This is a **proof-of-concept** full of security holes.  
 > Pull requests are welcome, I will merge them.  
