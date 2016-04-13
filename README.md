@@ -1,12 +1,12 @@
-# CaptiVa - Solution Portail Captif
+# CaptiVa - Portail Captif
 
-CaptiVa est une solution **Open Source** pour le partage sécurisé d'une connexion **Internet**. Il s'agit d'un point d'accès **WiFi** entièrement paramètrable par l'administrateur. Le client se connecte à ce dernier et il est automatiquement redirigé vers une page d'autentification. Après avoir rentré ses identifiants, le client dispose d'une connexion sécurisé à **Internet**. Quand à l'administrateur, il peut voir en temps réel les sites visités par ses clients.
+**CaptiVa** est une solution **Open Source** pour le partage sécurisé d'une connexion **Internet**. Il s'agit d'un point d'accès **WiFi** entièrement paramétrable par l'administrateur. Le client se connecte à ce dernier et il sera automatiquement redirigé vers une page d'autentification. Après avoir rentré ses identifiants, le client disposera d'une connexion sécurisé à **Internet**. Quand à l'administrateur, il peut voir en temps réel les sites visités par ses clients.
 
-> This is a **proof-of-concept** full of security holes.  
-> Pull requests are welcome, I will merge them.  
-> Let me know if you're interested in getting this to work properly: info@thomasg.be
+> C'est une solution très simple et sécurisé.  
+> L'administrateur garde le controle total de son accés Internet.  
+> Cette solution est entièrement Open Source
 
-### Required
+### Matériel Requis
 
 - Raspberry Pi
 - Wifi dongle [1]
