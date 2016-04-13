@@ -4,7 +4,7 @@
 
 > C'est une solution très simple et sécurisé.  
 > L'administrateur garde le contrôle total de son accés Internet.  
-> Cette solution est entièrement Open Source
+> Cette solution est entièrement Open Source.
 > Pour toutes question ou informations : eih3.prog@hotmail.com
 
 ### Matériel Requis
