@@ -3,8 +3,9 @@
 **CaptiVa** est une solution **Open Source** pour le partage sécurisé d'une connexion **Internet**. Il s'agit d'un point d'accès **WiFi** entièrement paramétrable par l'administrateur. Le client se connecte à ce dernier et il sera automatiquement redirigé vers une page d'autentification. Après avoir rentré ses identifiants, le client disposera d'une connexion sécurisé à **Internet**. Quand à l'administrateur, il peut voir en temps réel les sites visités par ses clients.
 
 > C'est une solution très simple et sécurisé.  
-> L'administrateur garde le controle total de son accés Internet.  
+> L'administrateur garde le contrôle total de son accés Internet.  
 > Cette solution est entièrement Open Source
+> Pour toutes question ou informations : eih3.prog@hotmail.com
 
 ### Matériel Requis
 
