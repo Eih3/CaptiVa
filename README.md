@@ -17,12 +17,15 @@
 
 Nous allons partir d'une image Linux neuve afin d'installer le strict nécessaire pour notre solution de portail captif.
 
+Dans ce projet, nous utiliserons un **RaspBerry Pi 3 Modèle B**.
+En fait ce modèle de carte inclut une interface **WiFi** et une interface **Bluetooth**. Nous navons donc pas a se soucier d'un dongle **WiFi**.
+
 [1] Votre dongle WiFi devra supporter le mode **AP** (mode infrastructure) ainsi que le mode **maître**.
 
 
-## Setup from image
+## Installation de l'image
 
-Download image from
+Téléchargez l'image Raspbian en cliquant sur ce lien
 https://www.dropbox.com/s/c731j2x433pqq1r/pilon.7z
 
 Login: ```pi```
