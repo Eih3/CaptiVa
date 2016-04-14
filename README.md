@@ -42,7 +42,7 @@ En premier lieu il faut repartitionner la distribution afin de disposer de l'esp
 sudo raspi-config
 ```
 
-Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarer votre Raspberry Pi.
+Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarrer votre Raspberry Pi.
 
 ![alt tag](https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG)
 
@@ -65,17 +65,19 @@ Modification de la configuration
 
 ```
 sudo sed -i 's/worker_processes 4/worker_processes 1/g' /etc/nginx/nginx.conf
+
 sudo sed -i 's/application\/octet-stream/text\/html/g' /etc/nginx/nginx.conf
+
 sudo sed -i 's/var\/log\/nginx\/access.log/home\/pi\/\/lon\/log\/nginx-access.log/g' /etc/nginx/nginx.conf
+
 sudo sed -i 's/var\/log\/nginx\/error.log/home\/pi\/\/lon\/log\/nginx-error.log/g' /etc/nginx/nginx.conf
 ```
 
-Set up a new server
+Création d'un nouveau serveur WEB
 
 ```
-# Clear default server
 sudo sh -c 'echo "" > /etc/nginx/sites-available/default'
-# Edit the new one
+
 sudo nano /etc/nginx/sites-available/default
 ```
 
