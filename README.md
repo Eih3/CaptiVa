@@ -44,8 +44,11 @@ sudo raspi-config
 
 Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarrer votre Raspberry Pi.
 
-<div style="text-align:center">
-  <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG" width="600" />
+
+<div style="text-align:center" markdown="1">
+
+![Alt Text](https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG "Caption" width="600")
+
 </div>
 
 Il faut maintenant mettre à jour la distribution afin de disposer des nouveaux packets.
