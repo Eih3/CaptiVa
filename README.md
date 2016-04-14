@@ -7,8 +7,6 @@
 > Cette solution est entièrement Open Source.              
 > Pour toute question ou informations : eih3.prog@outlook.fr
 
-Make with ❤ by Waf & Eih3
-
 ### Matériel Requis
 
 - Raspberry Pi
@@ -121,3 +119,5 @@ sudo sh -c 'echo "" > /etc/nginx/sites-available/default'
 
 sudo nano /etc/nginx/sites-available/default
 ```
+
+Make with ❤ by Waf & Eih3
