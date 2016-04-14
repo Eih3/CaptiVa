@@ -34,28 +34,18 @@ Password: ```raspberry```
 
 Suivez ce guide pour installer l'image sur votre carte SD http://bit.ly/win32disk
 
-1. Without thinking too much, I expanded the partition size to 8Gb.
-2. The iptables config is not included.
+### Mise à jour de notre distribution Linux
 
-
-### Get pilon
-
-Get the files from github, clone them into /home/pi
+En premier lieu il faut mettre à jour la distribution afin de disposer des nouveaux packets.
 
 ```
-git clone https://github.com/thgh/pilon.git /home/pi/lon
+sudo apt-get update
+sudo apt-get dist-upgrade
 ```
 
-Make these folders available to the webserver
+### Installation du serveur WEB
 
-```
-sudo chmod -R 774 /home/pi/lon/etc/*
-sudo chgrp -R www-data /home/pi/lon/etc /home/pi/lon/www
-```
-
-### Install webserver
-
-Install php and nginx which will serve the captive portal
+Nous allons installer le service **nginx** pour le serveur WEB ainsi que **PHP**.
 
 ```
 sudo apt-get update
