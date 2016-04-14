@@ -61,7 +61,7 @@ En tout premier lieu il vous faut télécharger une image de la distribution **R
 
 Ensuite vous devez suivre ce guide http://bit.ly/win32disk pour graver votre image sur une **carte SD**.
 
-Insérez votre **carte SD** fraîchement gravé dans le **RPi** et passez à l'étape suivant.
+Insérez votre **carte SD** fraîchement gravé dans le **RPi** et passez à l'étape suivante.
 
 ### Avoir accès au système
 
