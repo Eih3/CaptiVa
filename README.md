@@ -15,12 +15,10 @@
 - Une distribution Raspbian
 - Un ordinateur pour l'installation
 
-Nous allons partir d'une image Linux neuve afin d'installer le strict nécessaire pour notre solution de portail captif.
-
 Dans ce projet, nous utiliserons un **RaspBerry Pi 3 Modèle B**.
-En fait ce modèle de carte inclut une interface **WiFi** et une interface **Bluetooth**. Nous navons donc pas à nous soucier d'un dongle **WiFi**.
+En fait ce modèle de carte inclut une interface **WiFi** et une interface **Bluetooth**. Nous n'avons donc pas à nous soucier d'un dongle **WiFi**.
 
-[1] Votre dongle WiFi devra supporter le mode **AP** (mode infrastructure) ainsi que le mode **maître**.
+[1] Votre dongle **WiFi** devra supporter le mode **AP** (mode infrastructure) ainsi que le mode **maître**.
 
 
 ## Téléchargement de CaptiVa
@@ -30,7 +28,7 @@ https://downloads.raspberrypi.org/raspbian_latest
 
 Cette image est prête à être graver sur une carte SD et vous évite donc de paramétrer votre **RaspBerry Pi**.
 
-Guide de démarrage avec CaptiVa pré-installé :
+Guide de démarrage avec **CaptiVa** pré-installé :
 
   1. Gravez l'image sur une **carte SD** d'au moins **4 Go** en suivant le guide http://bit.ly/win32disk.
   2. Je sais pas
