@@ -67,9 +67,11 @@ Insérez votre **carte SD** fraîchement gravé dans le **RPi** et passez à l'�
 
 Vous avez deux solutions qui s'offres à vous afin d'avoir accès au système du **RPi** et ainsi pouvoir installer les packets nécessaires à la création d'un portail captif.
 
-La première est un accès direct à l'aide d'un écran et d'un clavier / souris.
+La première est un accès direct à l'aide d'un écran et d'un clavier / souris. C'est un choix simple qui nécessitera une connexion filaire à **Internet** à l'aide d'un câble **LAN**.
 
-Une fois que celà est fait, il ne vous reste plus qu'à connecter votre **RPi** à **Internet** à l'aide d'un câble **LAN**. Maintenant vous êtes prêt pour alimenter le **RPi** et continuer le tutoriel.
+La deuxième solution est un accès à distance à l'aide d'une connexion **SSH**. Là encore il sera nécessaire d'avoir une connexion filaire à **Internet**.
+
+Nous vous conseillons de choisir la première solution si vous êtes débutant. En revanche, la deuxième solution sera plus pratique pour ceux qui maitrisent **PuTTy** et autres outils de communication **SSH**.
 
 ### Mise à jour de votre distribution Linux
 
