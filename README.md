@@ -23,16 +23,21 @@ En fait ce modèle de carte inclut une interface **WiFi** et une interface **Blu
 [1] Votre dongle WiFi devra supporter le mode **AP** (mode infrastructure) ainsi que le mode **maître**.
 
 
-## Installation de CaptiVa
+## Téléchargement de CaptiVa
 
-Téléchargez la dernière image **Raspbian** en cliquant sur ce lien
+Téléchargez la dernière image **CaptiVa** en cliquant sur ce lien
 https://downloads.raspberrypi.org/raspbian_latest
 
-Login : ```pi```
+Cette image est prête à être graver sur une carte SD et vous évite donc de paramétrer votre **RaspBerry Pi**.
 
-Password : ```raspberry```
+Guide de démarrage avec CaptiVa pré-installé :
 
-Suivez ce guide pour installer l'image sur votre carte SD http://bit.ly/win32disk
+  1. Gravez l'image sur une **carte SD** d'au moins **4 Go** en suivant le guide http://bit.ly/win32disk.
+  2. Je sais pas
+
+  Login : ```pi```
+
+  Password : ```raspberry```
 
 ### Mise à jour de votre distribution Linux
 
@@ -68,11 +73,16 @@ sudo iw list
 
 ### Création d'un point d'accès
 
-Pour créer un point d'accès (AP) nous utiliserons **hostapd**, **isc-dhcp-server** et **iptables**.
+Pour créer un point d'accès (AP) nous utiliserons
+ **hostapd** pour le point d'accès,
+ **isc-dhcp-server** est un serveur **DHCP**,
+ **iptables** est un parfeu.
 
 ```
 sudo apt-get install hostapd isc-dhcp-server iptables iptables-persistent
 ```
+
+
 
 ### Installation du serveur WEB
 
