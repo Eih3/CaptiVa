@@ -25,13 +25,19 @@ En fait ce modèle de carte inclut une interface **WiFi** et une interface **Blu
 
 Il s'agit d'une image prête à être gravée sur une carte SD et vous évite donc de rentrer dans le coeur du système de votre **RaspBerry Pi**.
 
-Guide de démarrage avec **CaptiVa** pré-installé :
+###Guide de démarrage avec **CaptiVa** pré-installé :
 
   1. Téléchargez la dernière version de l'image en cliquant sur ce lien http://bit.ly/win32disk.
 
   2. Gravez l'image sur une **carte SD** d'au moins **4 Go** en suivant ce guide http://bit.ly/win32disk.
-  
-  3. Je sais pas
+
+  3. Insérez la carte SD dans votre **RPi**, raccordez le au réseau **Internet** avec un câble **LAN** et alimentez le avec un câble **Mini USB**.
+
+  4. Si tout fonctionne correctement, vous devriez voir un nouveau réseau **WiFi** du nom de "CaptiVa" qui vient de se créer.
+
+  5. Connectez vous dessus avec votre ordinateur et vous aller être rediriger vers la page de configuration de votre système de portail captif.
+
+  * a finir
 
   Login : ```pi```
 
