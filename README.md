@@ -63,7 +63,7 @@ Ensuite vous devez suivre ce guide http://bit.ly/win32disk pour graver votre ima
 
 Insérez votre **carte SD** fraîchement gravé dans le **RPi** et passez à l'étape suivante.
 
-### Avoir accès au système
+### Avoir un accès au système
 
 Vous avez deux solutions qui s'offres à vous afin d'avoir accès au système du **RPi** et ainsi pouvoir installer les packets nécessaires à la création d'un portail captif.
 
@@ -83,7 +83,7 @@ Pour vous connecter en mode **SSH** :
 
 ### Mise à jour de votre distribution Linux
 
-il faut repartitionner la distribution afin de disposer de l'espace total sur la **carte SD**.
+Avant de mettre à jour votre distribution **Raspbian**, il vous faut effectuer un changement de taille de partition. Cette action vous permettra de repartitionner la distribution afin de disposer de l'espace total disponible sur la **carte SD**.
 
 ```
 sudo raspi-config
