@@ -6,6 +6,7 @@
 > L'administrateur garde le contrôle total de son accés Internet.  
 > Cette solution est entièrement Open Source.              
 > Pour toute question ou informations : eih3.prog@outlook.fr
+> Make with ❤ by Waf & Ei3
 
 ### Matériel Requis
 
