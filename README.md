@@ -10,15 +10,9 @@
 ## SOMMAIRE
 
   * [Installation de CaptiVa](#install-1)
-  * [Chapter 2](#chapter-2)
+  * [Installation à partir d'une image neuve](#install-2)
   * [Chapter 3](#chapter-3)
 
-
-## Chapter 2 <a id="chapter-2"></a>
-Content for chapter one.
-
-## Chapter 3 <a id="chapter-3"></a>
-Content for chapter one.
 
 ### Matériel Requis
 
@@ -57,7 +51,7 @@ Login : ```pi```
 
 Password : ```captiva```
 
-## Installation à partir d'une image neuve
+## Installation à partir d'une image neuve <a id="install-2"></a>
 
 ### Mise à jour de votre distribution Linux
 
