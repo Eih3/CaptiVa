@@ -61,7 +61,7 @@ Pour que la solution CaptiVa fonctionne correctement, il faut être sûr que vot
 sudo iw list
 ```
 
-<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/iwlist.PNG" width="600" style="text-align:center;">
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/iwlist.PNG" width="600" align="middle">
 
 
 ### Installation du serveur WEB
