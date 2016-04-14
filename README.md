@@ -121,5 +121,6 @@ sudo nano /etc/nginx/sites-available/default
 ```
 
 
+___
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Make with ❤ by **Waf** & **Eih3**
