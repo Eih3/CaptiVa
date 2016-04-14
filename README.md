@@ -120,4 +120,6 @@ sudo sh -c 'echo "" > /etc/nginx/sites-available/default'
 sudo nano /etc/nginx/sites-available/default
 ```
 
-Make with ❤ by Waf & Eih3
+
+
+<center>Make with ❤ by Waf & Eih3</center>
