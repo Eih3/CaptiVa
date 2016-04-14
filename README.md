@@ -11,7 +11,6 @@
 
   * [Installation de CaptiVa](#install-1)
   * [Installation à partir d'une image neuve](#install-2)
-  * [Chapter 3](#chapter-3)
 
 
 ### Matériel Requis
