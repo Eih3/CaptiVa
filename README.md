@@ -21,12 +21,9 @@ En fait ce modèle de carte inclut une interface **WiFi** et une interface **Blu
 [1] Votre dongle **WiFi** devra supporter le mode **AP** (mode infrastructure) ainsi que le mode **maître**.
 
 
-## Téléchargement de CaptiVa
+## Installation de CaptiVa
 
-Téléchargez la dernière image **CaptiVa** en cliquant sur ce lien
-https://downloads.raspberrypi.org/raspbian_latest
-
-Cette image est prête à être graver sur une carte SD et vous évite donc de rentrer dans le coeur du système de votre **RaspBerry Pi**.
+Il s'agit d'une image prête à être gravé sur une carte SD et vous évite donc de rentrer dans le coeur du système de votre **RaspBerry Pi**.
 
 Guide de démarrage avec **CaptiVa** pré-installé :
 
