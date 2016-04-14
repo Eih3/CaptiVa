@@ -23,14 +23,14 @@ En fait ce modèle de carte inclut une interface **WiFi** et une interface **Blu
 [1] Votre dongle WiFi devra supporter le mode **AP** (mode infrastructure) ainsi que le mode **maître**.
 
 
-## Installation de l'image
+## Installation de CaptiVa
 
 Téléchargez la dernière image **Raspbian** en cliquant sur ce lien
 https://downloads.raspberrypi.org/raspbian_latest
 
-Login: ```pi```
+Login : ```pi```
 
-Password: ```raspberry```
+Password : ```raspberry```
 
 Suivez ce guide pour installer l'image sur votre carte SD http://bit.ly/win32disk
 
@@ -52,6 +52,18 @@ Il faut maintenant mettre à jour la distribution afin de disposer des nouveaux 
 sudo apt-get update
 sudo apt-get dist-upgrade
 ```
+
+### Vérification de l'interface WiFi
+
+Pour que la solution CaptiVa fonctionne correctement, il faut être sûr que votre dongle **WiFi** (ou dans notre cas l'interface intégrée au **Raspberry Pi**) supporte bien le mode **AP**.
+
+```
+sudo iw list
+```
+
+![alt tag](https://github.com/Eih3/CaptiVa/blob/master/screenshot/iwlist.PNG)
+
+
 
 ### Installation du serveur WEB
 
