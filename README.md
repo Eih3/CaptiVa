@@ -47,7 +47,8 @@ Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand File
 ![alt tag](https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG =250x)
 
 
-![](https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG | width=100)
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG" width="250">
+
 Il faut maintenant mettre à jour la distribution afin de disposer des nouveaux packets.
 
 ```
