@@ -41,11 +41,11 @@ Il s'agit d'une image prête à être gravée sur une carte SD et vous évite do
 
   6. L'installation de votre portail captif est désormais terminée.
 
-Pour toutes maintenances sur la distribution :
+Pour vous connecter en mode **SSH** :
 
-  Login : ```pi```
+Login : ```pi```
 
-  Password : ```captiva```
+Password : ```captiva```
 
 ## Installation à partir d'une image neuve
 
