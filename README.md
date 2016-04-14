@@ -10,14 +10,14 @@
 ### Matériel Requis
 
 - Raspberry Pi
-- Wifi dongle [1]
-- SD card
-- Computer to load pilon image file to SD
-- Computer to configure pilon
+- Dongle WiFi [1]
+- Carte SD 8 Go
+- Une distribution Raspbian
+- Un ordinateur pour l'installation
 
-If you would like to build it from scratch, start from Raspbian.
+Nous allons partir d'une image Linux neuve afin d'installer le strict nécessaire pour notre solution de portail captif.
 
-[1] Your wifi dongle has to have some sort of master mode. Some call it accesspoint infrastructure mode, host mode, hostap mode, ...
+[1] Votre dongle WiFi devra supporter le mode **AP** (mode infrastructure) ainsi que le mode **maître**.
 
 
 ## Setup from image
