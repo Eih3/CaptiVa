@@ -44,7 +44,7 @@ sudo raspi-config
 
 Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarrer votre Raspberry Pi.
 
-![alt tag](https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG)
+![alt tag](https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG =250x)
 
 Il faut maintenant mettre à jour la distribution afin de disposer des nouveaux packets.
 
@@ -61,7 +61,7 @@ Pour que la solution CaptiVa fonctionne correctement, il faut être sûr que vot
 sudo iw list
 ```
 
-![alt tag](https://github.com/Eih3/CaptiVa/blob/master/screenshot/iwlist.PNG)
+![alt tag](https://github.com/Eih3/CaptiVa/blob/master/screenshot/iwlist.PNG =250x)
 
 
 
