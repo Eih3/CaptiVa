@@ -9,7 +9,7 @@
 
 ## SOMMAIRE
 
-  * [Matériel Requis](#mat-1)
+  * [Installation de CaptiVa](#install-1)
   * [Chapter 2](#chapter-2)
   * [Chapter 3](#chapter-3)
 
@@ -20,7 +20,7 @@ Content for chapter one.
 ## Chapter 3 <a id="chapter-3"></a>
 Content for chapter one.
 
-### Matériel Requis <a id="mat-1"></a>
+### Matériel Requis
 
 - Raspberry Pi
 - Dongle WiFi [1]
@@ -33,8 +33,7 @@ En fait ce modèle de carte inclut une interface **WiFi** et une interface **Blu
 
 [1] Votre dongle **WiFi** devra supporter le mode **AP** (mode infrastructure) ainsi que le mode **maître**.
 
-
-## Installation de CaptiVa
+## Installation de CaptiVa  <a id="install-1"></a>
 
 Il s'agit d'une image prête à être gravée sur une carte SD et vous évite donc de rentrer dans le coeur du système de votre **RaspBerry Pi**.
 
