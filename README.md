@@ -18,15 +18,15 @@
 Nous allons partir d'une image Linux neuve afin d'installer le strict nécessaire pour notre solution de portail captif.
 
 Dans ce projet, nous utiliserons un **RaspBerry Pi 3 Modèle B**.
-En fait ce modèle de carte inclut une interface **WiFi** et une interface **Bluetooth**. Nous navons donc pas a se soucier d'un dongle **WiFi**.
+En fait ce modèle de carte inclut une interface **WiFi** et une interface **Bluetooth**. Nous navons donc pas à nous soucier d'un dongle **WiFi**.
 
 [1] Votre dongle WiFi devra supporter le mode **AP** (mode infrastructure) ainsi que le mode **maître**.
 
 
 ## Installation de l'image
 
-Téléchargez l'image Raspbian en cliquant sur ce lien
-https://www.dropbox.com/s/c731j2x433pqq1r/pilon.7z
+Téléchargez la dernière image **Raspbian** en cliquant sur ce lien
+https://downloads.raspberrypi.org/raspbian_latest
 
 Login: ```pi```
 
@@ -37,16 +37,6 @@ This image is not perfect:
 1. Without thinking too much, I expanded the partition size to 8Gb.
 2. The iptables config is not included.
 
-## Setup from scratch
-
-Start from Raspbian image. You can find it here:
-http://www.raspberrypi.org/downloads
-
-Find your pi in the local network and connect with ssh:
-
-Login: ```pi```
-
-Password: ```raspberry```
 
 ### Get pilon
 
@@ -171,5 +161,3 @@ iptables -I internet 1 -t mangle -p tcp -d fonts.googleapis.com --dport 80 -j RE
 iptables -I internet 1 -t mangle -p tcp -d fonts.googleapis.com --dport 443 -j RETURN
 
 ```
-
-### Aaaaaaaaand it's done.
