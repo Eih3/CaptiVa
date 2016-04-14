@@ -36,7 +36,15 @@ Suivez ce guide pour installer l'image sur votre carte SD http://bit.ly/win32dis
 
 ### Mise à jour de notre distribution Linux
 
-En premier lieu il faut mettre à jour la distribution afin de disposer des nouveaux packets.
+En premier lieu il faut repartitionner la distribution afin de disposer de l'espace total sur la carte SD.
+
+```
+sudo raspi-config
+```
+
+Vous devriez voir une fenêtre bleue avec des numéros de lignes. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarer votre Raspberry Pi.
+
+Il faut maintenant mettre à jour la distribution afin de disposer des nouveaux packets.
 
 ```
 sudo apt-get update
