@@ -44,6 +44,9 @@ sudo raspi-config
 
 Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarrer votre Raspberry Pi.
 
+<center>
+  <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG" width="600" />
+</center>
 
 <div style="text-align:center" markdown="1">
 
