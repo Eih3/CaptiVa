@@ -63,6 +63,10 @@ Ensuite vous devez suivre ce guide http://bit.ly/win32disk pour graver votre ima
 
 Une fois que celà est fait, il ne vous reste plus qu'à connecter votre **RPi** à **Internet** à l'aide d'un câble **LAN**. Maintenant vous êtes prêt pour alimenter le **RPi** et continuer le tutoriel.
 
+## Avoir accès au système
+
+Vous avez deux solutions qui s'offres à vous afin d'avoir accès au système du **RPi** et ainsi pouvoir installer les packets nécessaires à la création d'un portail captif. 
+
 ### Mise à jour de votre distribution Linux
 
 il faut repartitionner la distribution afin de disposer de l'espace total sur la **carte SD**.
