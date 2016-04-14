@@ -28,7 +28,9 @@ Il s'agit d'une image prête à être gravée sur une carte SD et vous évite do
 Guide de démarrage avec **CaptiVa** pré-installé :
 
   1. Téléchargez la dernière version de l'image en cliquant sur ce lien http://bit.ly/win32disk.
-  2. Gravez l'image sur une **carte SD** d'au moins **4 Go** en suivant le guide http://bit.ly/win32disk.
+
+  2. Gravez l'image sur une **carte SD** d'au moins **4 Go** en suivant ce guide http://bit.ly/win32disk.
+  
   3. Je sais pas
 
   Login : ```pi```
