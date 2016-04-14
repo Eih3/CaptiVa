@@ -53,9 +53,19 @@ Password : ```captiva```
 
 ## Installation à partir d'une image neuve <a id="install-2"></a>
 
+Vous avez choisi d'installer vous même la solution **CaptiVa** en passant par la case bidouille et programmation. Nous allons ensemble apprendre à configurer un point d'accès **WiFi** pour permettre le partage d'une connexion **Internet** pour de multiples clients.
+
+### Téléchargement de Raspbian
+
+En tout premier lieu il vous faut télécharger une image de la distribution **Raspbian** en cliquant sur ce lien http://bit.ly/win32disk.
+
+Ensuite vous devez suivre ce guide http://bit.ly/win32disk pour graver votre image sur une **carte SD**.
+
+Une fois que celà est fait, il ne vous reste plus qu'à connecter votre **RPi** à **Internet** à l'aide d'un câble **LAN**. Maintenant vous êtes prêt pour alimenter le **RPi** et continuer le tutoriel.
+
 ### Mise à jour de votre distribution Linux
 
-En premier lieu il faut repartitionner la distribution afin de disposer de l'espace total sur la **carte SD**.
+il faut repartitionner la distribution afin de disposer de l'espace total sur la **carte SD**.
 
 ```
 sudo raspi-config
