@@ -122,4 +122,4 @@ sudo nano /etc/nginx/sites-available/default
 
 
 
-<p styles="text-align: center;">Make with ❤ by **Waf** & **Eih3**</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Make with ❤ by **Waf** & **Eih3**
