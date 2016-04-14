@@ -30,9 +30,9 @@ https://downloads.raspberrypi.org/raspbian_latest
 
 Login: ```pi```
 
-Password: ```pilon```
+Password: ```raspberry```
 
-This image is not perfect:
+Si vous ne savez pas comment faire pour graver l'image sur une carte SD je vous invite à suivre ce tutoriel http://bit.ly/win32disk
 
 1. Without thinking too much, I expanded the partition size to 8Gb.
 2. The iptables config is not included.
