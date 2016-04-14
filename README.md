@@ -44,6 +44,7 @@ Il s'agit d'une image prête à être gravée sur une carte SD et vous évite do
 
   6. L'installation de votre portail captif est désormais terminée.
 
+
 Pour vous connecter en mode **SSH** :
 
 Login : ```pi```
@@ -54,14 +55,13 @@ Password : ```captiva```
 
 ### Mise à jour de votre distribution Linux
 
-En premier lieu il faut repartitionner la distribution afin de disposer de l'espace total sur la carte SD.
+En premier lieu il faut repartitionner la distribution afin de disposer de l'espace total sur la **carte SD**.
 
 ```
 sudo raspi-config
 ```
 
 Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarrer votre Raspberry Pi.
-
 
 <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG" width="600" />
 
