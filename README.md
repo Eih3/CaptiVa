@@ -93,8 +93,6 @@ Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand File
 
 <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG" width="600" />
 
-
-
 Il faut maintenant mettre à jour la distribution afin de disposer des nouveaux packets.
 
 ```
