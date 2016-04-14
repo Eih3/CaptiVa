@@ -37,6 +37,8 @@ Guide de démarrage avec **CaptiVa** pré-installé :
 
   Password : ```raspberry```
 
+## Installation à partir d'une image neuve
+
 ### Mise à jour de votre distribution Linux
 
 En premier lieu il faut repartitionner la distribution afin de disposer de l'espace total sur la carte SD.
