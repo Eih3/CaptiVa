@@ -61,11 +61,15 @@ En tout premier lieu il vous faut télécharger une image de la distribution **R
 
 Ensuite vous devez suivre ce guide http://bit.ly/win32disk pour graver votre image sur une **carte SD**.
 
+Insérez votre **carte SD** fraîchement gravé dans le **RPi** et passez à l'étape suivant.
+
+### Avoir accès au système
+
+Vous avez deux solutions qui s'offres à vous afin d'avoir accès au système du **RPi** et ainsi pouvoir installer les packets nécessaires à la création d'un portail captif.
+
+La première est un accès direct à l'aide d'un écran et d'un clavier / souris.
+
 Une fois que celà est fait, il ne vous reste plus qu'à connecter votre **RPi** à **Internet** à l'aide d'un câble **LAN**. Maintenant vous êtes prêt pour alimenter le **RPi** et continuer le tutoriel.
-
-## Avoir accès au système
-
-Vous avez deux solutions qui s'offres à vous afin d'avoir accès au système du **RPi** et ainsi pouvoir installer les packets nécessaires à la création d'un portail captif. 
 
 ### Mise à jour de votre distribution Linux
 
