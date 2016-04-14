@@ -35,9 +35,9 @@ Il s'agit d'une image prête à être gravée sur une carte SD et vous évite do
 
   4. Si tout fonctionne correctement, vous devriez voir un nouveau réseau **WiFi** du nom de "CaptiVa" qui vient de se créer.
 
-  5. Connectez vous dessus avec votre ordinateur et vous aller être rediriger vers la page de configuration de votre système de portail captif.
+  5. Connectez vous à ce réseau **WiFi** avec votre ordinateur. Vous aller être rediriger vers la page de configuration de votre système de portail captif.
 
-  * a finir
+  6. a finir
 
   Login : ```pi```
 
