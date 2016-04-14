@@ -34,13 +34,14 @@ Password: ```raspberry```
 
 Suivez ce guide pour installer l'image sur votre carte SD http://bit.ly/win32disk
 
-### Mise à jour de notre distribution Linux
+### Mise à jour de votre distribution Linux
 
 En premier lieu il faut repartitionner la distribution afin de disposer de l'espace total sur la carte SD.
 
 ```
 sudo raspi-config
 ```
+![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 Vous devriez voir une fenêtre bleue avec des numéros de lignes. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarer votre Raspberry Pi.
 
@@ -56,11 +57,10 @@ sudo apt-get dist-upgrade
 Nous allons installer le service **nginx** pour le serveur WEB ainsi que **PHP**.
 
 ```
-sudo apt-get update
 sudo apt-get install php5-fpm php5-gmp nginx
 ```
 
-Edit some settings
+Modification de la configuration
 
 ```
 sudo sed -i 's/worker_processes 4/worker_processes 1/g' /etc/nginx/nginx.conf
