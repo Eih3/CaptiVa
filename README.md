@@ -47,9 +47,9 @@ Il s'agit d'une image prête à être gravée sur une carte SD et vous évite do
 
 Pour vous connecter en mode **SSH** :
 
-Login : ```pi```
+* Login : ```pi```
 
-Password : ```captiva```
+* Password : ```captiva```
 
 ## Installation à partir d'une image neuve <a id="install-2"></a>
 
@@ -77,9 +77,9 @@ Pour la suite de ce tutoriel, les commandes sont à rentrées dans une console.
 
 Pour vous connecter en mode **SSH** :
 
-Login : ```pi```
+* Login : ```pi```
 
-Password : ```raspberry```
+* Password : ```raspberry```
 
 ### Mise à jour de votre distribution Linux
 
