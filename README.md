@@ -26,7 +26,7 @@ En fait ce modèle de carte inclut une interface **WiFi** et une interface **Blu
 Téléchargez la dernière image **CaptiVa** en cliquant sur ce lien
 https://downloads.raspberrypi.org/raspbian_latest
 
-Cette image est prête à être graver sur une carte SD et vous évite donc de paramétrer votre **RaspBerry Pi**.
+Cette image est prête à être graver sur une carte SD et vous évite donc de rentrer dans le coeur du système de votre **RaspBerry Pi**.
 
 Guide de démarrage avec **CaptiVa** pré-installé :
 
