@@ -41,7 +41,7 @@ En premier lieu il faut repartitionner la distribution afin de disposer de l'esp
 ```
 sudo raspi-config
 ```
-![alt tag](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt tag](https://github.com/Eih3/CaptiVa/screenshot/raspi-config.png)
 
 Vous devriez voir une fenêtre bleue avec des numéros de lignes. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarer votre Raspberry Pi.
 
