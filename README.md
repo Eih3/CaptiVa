@@ -73,6 +73,14 @@ La deuxième solution est un accès à distance à l'aide d'une connexion **SSH*
 
 Nous vous conseillons de choisir la première solution si vous êtes débutant. En revanche, la deuxième solution sera plus pratique pour ceux qui maitrisent **PuTTy** et autres outils de communication **SSH**.
 
+Pour la suite de ce tutoriel, les commandes sont à rentrées dans une console.
+
+Pour vous connecter en mode **SSH** :
+
+Login : ```pi```
+
+Password : ```raspberry```
+
 ### Mise à jour de votre distribution Linux
 
 il faut repartitionner la distribution afin de disposer de l'espace total sur la **carte SD**.
