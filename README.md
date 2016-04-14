@@ -7,7 +7,7 @@
 > Cette solution est entièrement Open Source.              
 > Pour toute question ou informations : eih3.prog@outlook.fr
 
-Make with ❤ by Waf & Ei3
+Make with ❤ by Waf & Eih3
 
 ### Matériel Requis
 
@@ -39,11 +39,13 @@ Il s'agit d'une image prête à être gravée sur une carte SD et vous évite do
 
   5. Connectez vous à ce réseau **WiFi** avec votre ordinateur. Vous aller être rediriger vers la page de configuration de votre système de portail captif.
 
-  6. a finir
+  6. L'installation de votre portail captif est désormais terminée.
+
+Pour toutes maintenances sur la distribution :
 
   Login : ```pi```
 
-  Password : ```raspberry```
+  Password : ```captiva```
 
 ## Installation à partir d'une image neuve
 
