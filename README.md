@@ -45,7 +45,7 @@ sudo raspi-config
 Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarrer votre Raspberry Pi.
 
 
-  <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG" width="600" />
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG" width="600" />
 
 
 
@@ -64,8 +64,15 @@ Pour que la solution CaptiVa fonctionne correctement, il faut être sûr que vot
 sudo iw list
 ```
 
-<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/iwlist.PNG" width="600" align="middle">
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/iwlist.PNG" width="600" />
 
+### Création d'un point d'accès
+
+Pour créer un point d'accès (AP) nous utiliserons **hostapd**, **isc-dhcp-server** et **iptables**.
+
+```
+sudo apt-get install hostapd isc-dhcp-server iptables iptables-persistent
+```
 
 ### Installation du serveur WEB
 
