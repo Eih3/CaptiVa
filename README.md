@@ -318,4 +318,4 @@ sudo nano /etc/nginx/sites-available/default
 
 ***
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Made with ❤ by **Waf** & **Eih3**
+Made with ❤ by **Waf** & **Eih3**
