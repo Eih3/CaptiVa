@@ -93,6 +93,7 @@ Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand File
 
 <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG" width="600" />
 
+
 Il faut maintenant mettre à jour la distribution afin de disposer des nouveaux packets.
 
 ```
@@ -102,7 +103,7 @@ sudo apt-get dist-upgrade
 
 ### Vérification de l'interface WiFi
 
-Pour que la solution CaptiVa fonctionne correctement, il faut être sûr que votre dongle **WiFi** (ou dans notre cas l'interface intégrée au **Raspberry Pi**) supporte bien le mode **AP**.
+Pour que la solution de portail captif fonctionne correctement, il faut être sûr que votre dongle **WiFi** (ou dans notre cas l'interface intégrée au **Raspberry Pi**) supporte bien le mode **AP**.
 
 ```
 sudo iw list
