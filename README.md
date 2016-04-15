@@ -123,9 +123,9 @@ sudo apt-get install hostapd isc-dhcp-server iptables iptables-persistent
 ```
 
 Pour effectuer des modifications sur ces packets :
- * **hostapd** -> /etc/default/hostapd et /etc/hostapd/hostapd.conf
- * **isc-dhcp-server** -> /etc/default/isc-dhcp-server et /etc/dhcp/dhcpd.conf
- 
+ * **hostapd** -> _/etc/default/hostapd_ et _/etc/hostapd/hostapd.conf_
+ * **isc-dhcp-server** -> _/etc/default/isc-dhcp-server_ et _/etc/dhcp/dhcpd.conf_
+
 
 
 ### Installation du serveur WEB
