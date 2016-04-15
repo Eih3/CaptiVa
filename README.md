@@ -142,9 +142,9 @@ address 192.168.0.100
 netmask 255.255.255.0
 network 192.168.0.0
 
-#allow-hotplug wlan1
-#iface wlan1 inet manual
-#    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+allow-hotplug wlan1
+iface wlan1 inet manual
+    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 
 ```
 
@@ -174,6 +174,8 @@ sudo apt-get install hostapd isc-dhcp-server iptables iptables-persistent
 Pour effectuer des modifications sur ces packets :
  * **hostapd** -> _/etc/default/hostapd_ et _/etc/hostapd/hostapd.conf_
  * **isc-dhcp-server** -> _/etc/default/isc-dhcp-server_ et _/etc/dhcp/dhcpd.conf_
+
+#### Hostapd
 
 Nous devons créer un fichier de configuration pour le point d'accés **WiFi**
 
@@ -208,7 +210,7 @@ rts_threshold=2347
 fragm_threshold=2346
 ```
 
-Par la suite il vous faut indiquer l'endroit où se trouve ce fichier de configuration
+Par la suite il faut indiquer l'endroit où se trouve ce fichier de configuration
 
 ```
 sudo nano /etc/default/hostapd
@@ -218,6 +220,57 @@ et ajoutez à la fin du fichier la ligne suivante
 
 ```
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
+```
+
+#### Serveur DHCP
+
+Nous allons configurer notre serveur **DHCP** afin d'attribuer automatiquement une adresse **IP** et d'autres informations importantes pour les clients qui se connecterons sur notre point d'accès **WiFi**
+
+```
+sudo nano /etc/dhcp/dhcpd.conf
+```
+
+Ajoutez les lignes de configuration suivantes
+
+```
+subnet 192.168.0.0 netmask 255.255.255.0 {
+ range 192.168.0.10 192.168.0.60;
+ option routers 192.168.0.100;
+ option domain-name-servers 192.168.0.100;
+}
+```
+
+Le serveur **DHCP** a besoin de savoir sur quelle interface réseau il devra attribuer les données de configuration **IP**
+
+```
+sudo nano /etc/default/isc-dhcp-server
+```
+
+Modifiez la ligne ou ajoutez la en fin de fichier
+
+```
+INTERFACES="wlan0"
+```
+
+Le serveur **DHCP** peut rencontrer certains problèmes de gestion d'interfaces réseaux. Pour éviter de futur complication il est plus sage de créer un fichier
+
+```
+sudo nano /etc/default/ifplugd
+```
+
+et d'y ajouter les lignes suivantes
+
+```
+INTERFACES="eth0"
+HOTPLUG_INTERFACES="eth0"
+ARGS="-q -f -u0 -d10 -w -I"
+SUSPEND_ACTION="stop"
+```
+
+Il faut être sur que notre serveur **DHCP** sera bien activé au prochain redémarrage de notre **RPi**
+
+```
+sudo update-rc.d isc-dhcp-server enable
 ```
 
 ### Installation du serveur WEB
