@@ -51,7 +51,7 @@ Pour vous connecter en mode **SSH** :
 
 * Password : ```captiva```
 
-## Installation à partir d'une image neuve <a id="install-2"></a>
+## Installation à partir de zéro <a id="install-2"></a>
 
 Vous avez choisi d'installer vous même la solution **CaptiVa** en passant par la case bidouille et programmation. Nous allons ensemble apprendre à configurer un point d'accès **WiFi** pour permettre le partage d'une connexion **Internet** pour de multiples clients.
 
@@ -175,7 +175,7 @@ Pour effectuer des modifications sur ces packets :
  * **hostapd** -> _/etc/default/hostapd_ et _/etc/hostapd/hostapd.conf_
  * **isc-dhcp-server** -> _/etc/default/isc-dhcp-server_ et _/etc/dhcp/dhcpd.conf_
 
-#### Hostapd
+<h4>Hostapd</h4>
 
 Nous devons créer un fichier de configuration pour le point d'accés **WiFi**
 
@@ -222,7 +222,7 @@ et ajoutez à la fin du fichier la ligne suivante
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
 ```
 
-#### Serveur DHCP
+<h4>Serveur DHCP</h4>
 
 Nous allons configurer notre serveur **DHCP** afin d'attribuer automatiquement une adresse **IP** et d'autres informations importantes pour les clients qui se connecterons sur notre point d'accès **WiFi**
 
