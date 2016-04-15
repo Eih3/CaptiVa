@@ -101,9 +101,9 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 ```
 
-### Vérification de l'interface WiFi
+### Paramétrage de l'interface WiFi
 
-Pour que la solution de portail captif fonctionne correctement, il faut être sûr que votre dongle **WiFi** (ou dans notre cas l'interface intégrée au **Raspberry Pi**) supporte bien le mode **AP**.
+Pour que cette solution de portail captif fonctionne correctement, il faut être sûr que votre dongle **WiFi** (ou dans notre cas l'interface intégrée au **Raspberry Pi**) supporte bien le mode **AP**.
 
 ```
 sudo iw list
@@ -111,20 +111,6 @@ sudo iw list
 
 <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/iwlist.PNG" width="600" />
 
-### Création d'un point d'accès
-
-Pour créer un point d'accès (**AP**) nous utiliserons :
- * **hostapd** pour le point d'accès,
- * **isc-dhcp-server** pour le serveur **DHCP**,
- * **iptables** pour créer un parfeu.
-
-```
-sudo apt-get install hostapd isc-dhcp-server iptables iptables-persistent
-```
-
-Pour effectuer des modifications sur ces packets :
- * **hostapd** -> _/etc/default/hostapd_ et _/etc/hostapd/hostapd.conf_
- * **isc-dhcp-server** -> _/etc/default/isc-dhcp-server_ et _/etc/dhcp/dhcpd.conf_
 
 Nous allons maintenant configurer l'adresse **IP** de l'interface **WiFi**
 
@@ -156,25 +142,38 @@ address 192.168.0.100
 netmask 255.255.255.0
 network 192.168.0.0
 
-
-
 #allow-hotplug wlan1
 #iface wlan1 inet manual
 #    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 
 ```
 
-Il est possible de désactiver **wpa_supplicant***
+Il est possible de désactiver **wpa_supplicant**
 
 ```
 sudo mv /usr/share/dbus-1/system-services/fi.epitest.hostap.WPASupplicant.service ~/
 ```
 
-Il vous faut maintenant redémarrer votre **RPi** afin qu'il prene en compte les modifications sur les interfaces réseaux.
+Il vous faut maintenant redémarrer votre **RPi** afin qu'il prenne en compte les modifications sur les interfaces réseaux.
 
 ```
 sudo reboot
 ```
+
+### Création d'un point d'accès
+
+Pour créer un point d'accès (**AP**) nous utiliserons :
+ * **hostapd** pour le point d'accès,
+ * **isc-dhcp-server** pour le serveur **DHCP**,
+ * **iptables** pour créer un parfeu.
+
+```
+sudo apt-get install hostapd isc-dhcp-server iptables iptables-persistent
+```
+
+Pour effectuer des modifications sur ces packets :
+ * **hostapd** -> _/etc/default/hostapd_ et _/etc/hostapd/hostapd.conf_
+ * **isc-dhcp-server** -> _/etc/default/isc-dhcp-server_ et _/etc/dhcp/dhcpd.conf_
 
 ### Installation du serveur WEB
 
