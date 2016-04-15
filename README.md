@@ -164,6 +164,17 @@ network 192.168.0.0
 
 ```
 
+Il est possible de désactiver **wpa_supplicant***
+
+```
+sudo mv /usr/share/dbus-1/system-services/fi.epitest.hostap.WPASupplicant.service ~/
+```
+
+Il vous faut maintenant redémarrer votre **RPi** afin qu'il prene en compte les modifications sur les interfaces réseaux.
+
+```
+sudo reboot
+```
 
 ### Installation du serveur WEB
 
