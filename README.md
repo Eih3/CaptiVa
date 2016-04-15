@@ -126,6 +126,11 @@ Pour effectuer des modifications sur ces packets :
  * **hostapd** -> _/etc/default/hostapd_ et _/etc/hostapd/hostapd.conf_
  * **isc-dhcp-server** -> _/etc/default/isc-dhcp-server_ et _/etc/dhcp/dhcpd.conf_
 
+Nous allons maintenant configurer l'adresse **IP** de l'interface **WiFi**
+
+```
+sudo nano /etc/network/interfaces
+```
 
 
 ### Installation du serveur WEB
