@@ -122,6 +122,10 @@ Pour créer un point d'accès (**AP**) nous utiliserons :
 sudo apt-get install hostapd isc-dhcp-server iptables iptables-persistent
 ```
 
+Pour effectuer des modifications sur ces packets :
+ * **hostapd** -> /etc/default/hostapd et /etc/hostapd/hostapd.conf
+ * **isc-dhcp-server** -> /etc/default/isc-dhcp-server et /etc/dhcp/dhcpd.conf
+ 
 
 
 ### Installation du serveur WEB
