@@ -91,7 +91,7 @@ sudo raspi-config
 
 Vous devriez voir cette fenêtre. Sélectionnez la première ligne **Expand Filesystem** et ensuite redémarrer votre Raspberry Pi.
 
-<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.PNG" width="600" />
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/raspi-config.png" width="600" />
 
 
 Il faut maintenant mettre à jour la distribution afin de disposer des nouveaux packets.
@@ -109,7 +109,7 @@ Pour que cette solution de portail captif fonctionne correctement, il faut être
 sudo iw list
 ```
 
-<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/iwlist.PNG" width="600" />
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/iwlist.png" width="600" />
 
 
 Nous allons maintenant configurer l'adresse **IP** de l'interface **WiFi**
@@ -228,7 +228,7 @@ sudo service hostapd start
 ```
 Si tout c'est bien passé, vous devriez voir apparaître un nouveau réseau **WiFi** du nom de **CaptiVa**
 
-<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/wifi.PNG" />
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/wifi.png" />
 
 Pour être sur que le point d'accès sera activé au prochain redémarrage
 
