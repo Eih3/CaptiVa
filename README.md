@@ -289,11 +289,31 @@ sudo update-rc.d isc-dhcp-server enable
 
 ### Installation du serveur WEB
 
-Nous allons installer le service **nginx** pour le serveur WEB ainsi que **PHP**.
+Nous allons installer le service **nginx** pour le serveur **WEB** ainsi que **PHP**.
 
 ```
-sudo apt-get install php5-fpm php5-gmp nginx
+sudo apt-get install php5-fpm libgd2-xpm-dev php5-gmp libpcrecpp0 libxpm4 nginx
 ```
+
+Une fois que l'installation est finie, ouvrez votre navigateur **WEB** et saisissez l'addresse **192.168.0.100** du point d'accès dans la barre de recherche. Si vous obtenez la page suivante c'est que votre serveur **WEB** est bien installé
+
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/web_nginx.png" />
+
+
+
+Nous allons créer un dossier qui contiendra nos pages **WEB** et nous lui donnons des droits d'accès
+
+```
+sudo mkdir /var/www
+sudo chown -R www-data:www-data /var/www
+```
+
+
+
+
+
+
+
 
 Modification de la configuration
 
