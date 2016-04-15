@@ -297,7 +297,7 @@ sudo apt-get install php5-fpm libgd2-xpm-dev php5-gmp libpcrecpp0 libxpm4 nginx
 
 Une fois que l'installation est finie, ouvrez votre navigateur **WEB** et saisissez l'addresse **192.168.0.100** du point d'accès dans la barre de recherche. Si vous obtenez la page suivante c'est que votre serveur **WEB** est bien installé
 
-<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/web_nginx.png" />
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/web_nginx.png" width="600" />
 
 
 
