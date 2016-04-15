@@ -101,7 +101,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 ```
 
-### Paramétrage de l'interface WiFi
+### Paramétrage de la carte WiFi
 
 Pour que cette solution de portail captif fonctionne correctement, il faut être sûr que votre dongle **WiFi** (ou dans notre cas l'interface intégrée au **Raspberry Pi**) supporte bien le mode **AP**.
 
@@ -174,6 +174,51 @@ sudo apt-get install hostapd isc-dhcp-server iptables iptables-persistent
 Pour effectuer des modifications sur ces packets :
  * **hostapd** -> _/etc/default/hostapd_ et _/etc/hostapd/hostapd.conf_
  * **isc-dhcp-server** -> _/etc/default/isc-dhcp-server_ et _/etc/dhcp/dhcpd.conf_
+
+Nous devons créer un fichier de configuration pour le point d'accés **WiFi**
+
+```
+sudo nano /etc/hostapd/hostapd.conf
+```
+
+Dans ce fichier, il vous faut définir tous les paramètres de votre point d'accès **WiFi**
+
+```
+# interface wlan du WiFi
+interface=wlan0
+# nl80211 avec tous les drivers Linux mac80211
+driver=nl80211
+# Nom du hotspot WiFi
+ssid=CaptiVa
+# mode WiFi (a = IEEE 802.11a, b = IEEE 802.11b, g = IEEE 802.11g)
+hw_mode=g
+# canal de fréquence WiFi (1-14)
+channel=6
+# WiFi ouvert, pas d'authentification !
+auth_algs=1
+# Beacon interval in kus (1.024 ms)
+beacon_int=100
+# DTIM (delivery trafic information message)
+dtim_period=2
+# Maximum number of stations allowed in station table
+max_num_sta=255
+# RTS/CTS threshold; 2347 = disabled (default)
+rts_threshold=2347
+# Fragmentation threshold; 2346 = disabled (default)
+fragm_threshold=2346
+```
+
+Par la suite il vous faut indiquer l'endroit où se trouve ce fichier de configuration
+
+```
+sudo nano /etc/default/hostapd
+```
+
+et ajoutez à la fin du fichier la ligne suivante
+
+```
+DAEMON_CONF="/etc/hostapd/hostapd.conf"
+```
 
 ### Installation du serveur WEB
 
