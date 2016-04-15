@@ -113,10 +113,10 @@ sudo iw list
 
 ### Création d'un point d'accès
 
-Pour créer un point d'accès (AP) nous utiliserons
- **hostapd** pour le point d'accès,
- **isc-dhcp-server** est un serveur **DHCP**,
- **iptables** est un parfeu.
+Pour créer un point d'accès (**AP**) nous utiliserons :
+ * **hostapd** pour le point d'accès,
+ * **isc-dhcp-server** pour le serveur **DHCP**,
+ * **iptables** pour créer un parfeu.
 
 ```
 sudo apt-get install hostapd isc-dhcp-server iptables iptables-persistent
