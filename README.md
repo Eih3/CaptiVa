@@ -221,6 +221,18 @@ et ajoutez à la fin du fichier la ligne suivante
 ```
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
 ```
+Il est désormais possible de démarrer le service pour voir si le point d'accès à bien été créer
+
+```
+sudo service hostapd start
+```
+Si tout c'est bien passé, vous devriez voir apparaître un nouveau réseau **WiFi** du nom de **CaptiVa**
+
+Pour être sur que le point d'accès sera activé au prochain redémarrage
+
+```
+update-rc.d hostapd enable
+```
 
 <h4>Serveur DHCP</h4>
 
