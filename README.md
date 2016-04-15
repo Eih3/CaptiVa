@@ -228,7 +228,7 @@ sudo service hostapd start
 ```
 Si tout c'est bien passé, vous devriez voir apparaître un nouveau réseau **WiFi** du nom de **CaptiVa**
 
-<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/wifi.png" />
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/wifi.png" width="300" />
 
 Pour être sur que le point d'accès sera activé au prochain redémarrage
 
