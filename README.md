@@ -132,7 +132,7 @@ source-directory /etc/network/interfaces.d
 auto lo
 iface lo inet loopback
 
-iface eth0 inet manual
+iface eth0 inet dhcp
 
 allow-hotplug wlan0
 #iface wlan0 inet manual
