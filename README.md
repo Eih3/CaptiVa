@@ -287,7 +287,7 @@ Il faut être sur que notre serveur **DHCP** sera bien activé au prochain redé
 sudo update-rc.d isc-dhcp-server enable
 ```
 
-### Installation du serveur WEB
+### Installation d'un serveur WEB
 
 Nous allons installer le service **nginx** pour le serveur **WEB** ainsi que **PHP**.
 
@@ -308,11 +308,19 @@ sudo mkdir /var/www
 sudo chown -R www-data:www-data /var/www
 ```
 
+### Installation d'un serveur FTP
 
+La création d'un serveur **FTP** va nous permettre d'avoir un accès à distance sur les fichiers présents dans le système de notre **RPi**. Nous utiliserons un client **FTP** afin de simplifier l'envoi des pages **WEB** sur le serveur.
 
+```
+sudo apt-get install vsftpd
+```
 
+Nous allons effectuer une copie du fichier initiale de configuration sur serveur **FTP**
 
-
+```
+sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.old
+```
 
 
 Modification de la configuration
@@ -334,6 +342,8 @@ sudo sh -c 'echo "" > /etc/nginx/sites-available/default'
 
 sudo nano /etc/nginx/sites-available/default
 ```
+
+
 
 
 ***
