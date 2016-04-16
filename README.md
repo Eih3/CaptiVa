@@ -117,7 +117,7 @@ Nous allons maintenant configurer l'adresse **IP** de l'interface **WiFi**
 ```
 sudo nano /etc/network/interfaces
 ```
-
+<code>TEST</code>
 Le contenu de notre fichier 'interfaces' est le suivant :
 
 ```
