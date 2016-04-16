@@ -286,9 +286,10 @@ Il faut être sur que notre serveur **DHCP** sera bien activé au prochain redé
 ```
 sudo update-rc.d isc-dhcp-server enable
 ```
+
 ### Installation d'un serveur FTP
 
-La création d'un serveur **FTP** va nous permettre d'avoir un accès à distance sur les fichiers présents dans le système de notre **RPi**. Nous utiliserons un client **FTP** afin de simplifier l'envoi des pages **WEB** sur le serveur.
+La création d'un serveur **FTP** va nous permettre d'avoir un accès à distance à notre **RPi** afin de simplifier l'envoi de fichiers sur le serveur **WEB**.
 
 ```
 sudo apt-get install vsftpd
