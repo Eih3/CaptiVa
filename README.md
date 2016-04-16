@@ -65,7 +65,7 @@ Insérez votre **carte SD** fraîchement gravé dans le **RPi** et passez à l'�
 
 ### Avoir un accès au système
 
-Vous avez deux solutions qui s'offres à vous afin d'avoir accès au système du **RPi** et ainsi pouvoir installer les packets nécessaires à la création d'un portail captif.
+Vous avez deux solutions qui s'offrent à vous afin d'avoir accès au système du **RPi** et ainsi pouvoir installer les packets nécessaires à la création d'un portail captif.
 
 La première est un accès direct à l'aide d'un écran et d'un clavier / souris. C'est un choix simple qui nécessitera une connexion filaire à **Internet** à l'aide d'un câble **LAN**.
 
@@ -233,7 +233,7 @@ Si tout c'est bien passé, vous devriez voir apparaître un nouveau réseau **Wi
 Pour être sur que le point d'accès sera activé au prochain redémarrage
 
 ```
-update-rc.d hostapd enable
+sudo update-rc.d hostapd enable
 ```
 
 <h4>Configuration du serveur DHCP</h4>
