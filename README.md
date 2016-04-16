@@ -295,10 +295,34 @@ La création d'un serveur **FTP** va nous permettre d'avoir un accès à distanc
 sudo apt-get install vsftpd
 ```
 
-Nous allons effectuer une copie du fichier initiale de configuration sur serveur **FTP**
+Nous allons effectuer une copie du fichier initial de configuration du serveur **FTP**
 
 ```
 sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.old
+```
+
+Il faut maintenant remplacer les paramètres du fichier de configuration avec les paramètres suivants :
+
+```
+listen=YES
+anonymous_enable=NO
+local_enable=YES
+write_enable=YES
+local_umask=022
+anon_upload_enable=NO
+anon_mkdir_write_enable=NO
+xferlog_enable=NO
+xferlog_file=/var/log/vsftpd.log
+connect_from_port_20=YES
+idle_session_timeout=300
+data_connection_timeout=120
+connect_timeout=60
+accept_timeout=60
+async_abor_enable=NO
+ascii_upload_enable=NO
+ascii_download_enable=NO
+ftpd_banner=vipi FTP
+use_localtime=YES
 ```
 
 ### Installation d'un serveur WEB
