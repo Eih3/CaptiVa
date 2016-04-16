@@ -175,7 +175,7 @@ Pour effectuer des modifications sur ces packets :
  * **hostapd** -> _/etc/default/hostapd_ et _/etc/hostapd/hostapd.conf_
  * **isc-dhcp-server** -> _/etc/default/isc-dhcp-server_ et _/etc/dhcp/dhcpd.conf_
 
-<h4>Hostapd</h4>
+<h4>Configuration Hostapd</h4>
 
 Nous devons créer un fichier de configuration pour le point d'accés **WiFi**
 
@@ -236,7 +236,7 @@ Pour être sur que le point d'accès sera activé au prochain redémarrage
 update-rc.d hostapd enable
 ```
 
-<h4>Serveur DHCP</h4>
+<h4>Configuration du serveur DHCP</h4>
 
 Nous allons configurer notre serveur **DHCP** afin d'attribuer automatiquement une adresse **IP** et d'autres informations importantes pour les clients qui se connecterons sur notre point d'accès **WiFi**
 
