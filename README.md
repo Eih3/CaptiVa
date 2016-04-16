@@ -315,7 +315,7 @@ Une fois que l'installation est finie, ouvrez votre navigateur **WEB** et saisis
 
 
 
-Nous allons créer un dossier qui contiendra nos pages **WEB** et nous lui donnons des droits d'accès
+Nous allons créer un dossier qui contiendra nos pages **WEB** et nous lui donnerons les droits de lecture et d'écriture
 
 ```
 sudo mkdir /var/www
