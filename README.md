@@ -331,6 +331,18 @@ ftpd_banner=vipi FTP
 use_localtime=YES
 ```
 
+Afin d'autoriser le client **FTP** à accéder aux fichiers de l'utilisateur et ainsi de disposer des droits d'écritures
+
+```
+sudo chown -R pi /home/pi
+```
+
+Pour finir, redémarrer votre serveur **FTP** et connectez vous sur le serveur à l'aide d'un outil de gestion **FTP** tel que **FileZilla FTP**.
+
+```
+sudo /etc/init.d/vsftpd restart
+```
+
 ### Installation d'un serveur WEB
 
 Nous allons installer le service **nginx** pour le serveur **WEB** ainsi que **PHP**.
