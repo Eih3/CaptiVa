@@ -342,6 +342,7 @@ Pour finir, red√©marrer votre serveur **FTP** et connectez vous sur le serveur √
 ```
 sudo /etc/init.d/vsftpd restart
 ```
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/filezilla.png" width="600" />
 
 ### Installation d'un serveur WEB
 
