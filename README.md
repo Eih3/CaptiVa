@@ -381,7 +381,7 @@ sudo /etc/init.d/nginx restart
 
 Vous n'avez plus qu'à vous rendre sur la page du serveur à l'aide de votre navigateur **WEB** comme nous l'avons vu précédemment. Si tout c'est bien passé, vous devriez voir la page suivante
 
-
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/phpinfo.png" width="600" />
 
 
 
