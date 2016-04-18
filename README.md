@@ -230,6 +230,12 @@ Si tout c'est bien passé, vous devriez voir apparaître un nouveau réseau **Wi
 
 <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/wifi.png" width="300" />
 
+Si ce n'est pas le cas, il vous suffit de redémarrer votre **RPi**
+
+```
+sudo reboot
+```
+
 Pour être sur que le point d'accès sera activé au prochain redémarrage
 
 ```
