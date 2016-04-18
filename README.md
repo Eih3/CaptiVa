@@ -301,7 +301,7 @@ Nous allons installer le service **nginx** pour créer notre serveur **WEB**. Ce
 sudo aptitude install nginx php5-fpm
 ```
 
-Une fois que l'installation est finie, ouvrez votre navigateur **WEB** et saisissez l'addresse **192.168.0.100** du point d'accès dans la barre de recherche. Si vous obtenez la page suivante c'est que votre serveur **WEB** est bien installé
+Une fois que l'installation est finie, ouvrez votre navigateur **WEB** et saisissez l'addresse de votre  **RPi** (connectez vous au point d'accès **CaptiVa**) dans la barre de recherche. Si vous obtenez la page suivante c'est que votre serveur **WEB** est bien installé
 
 <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/web_nginx.png" width="400" />
 
