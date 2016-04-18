@@ -389,7 +389,11 @@ Vous n'avez plus qu'à vous rendre sur la page du serveur à l'aide de votre nav
 
 <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/phpinfo.png" width="600" />
 
+Si vous rencontrez l'erreur **403 Forbiden**
 
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/403.png" width="600" />
+
+C'est que le serveur n'a pas accès aux fichiers ou qu'il n'y a aucun fichier à lancer par défaut : index.php, index.html ou index.htm.
 
 ### Installation d'un serveur FTP
 
