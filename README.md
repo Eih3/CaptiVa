@@ -117,7 +117,6 @@ Nous allons maintenant configurer l'adresse **IP** de l'interface **WiFi**
 ```
 sudo nano /etc/network/interfaces
 ```
-<code>TEST</code>
 Le contenu de notre fichier 'interfaces' est le suivant :
 
 ```
@@ -327,7 +326,7 @@ accept_timeout=60
 async_abor_enable=NO
 ascii_upload_enable=NO
 ascii_download_enable=NO
-ftpd_banner=vipi FTP
+ftpd_banner=CaptiVa FTP
 use_localtime=YES
 ```
 
