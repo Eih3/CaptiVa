@@ -98,6 +98,7 @@ Il faut maintenant mettre à jour la distribution afin de disposer des nouveaux 
 
 ```
 sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get dist-upgrade
 ```
 
