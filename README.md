@@ -286,6 +286,27 @@ Il faut être sur que notre serveur **DHCP** sera bien activé au prochain redé
 sudo update-rc.d isc-dhcp-server enable
 ```
 
+### Installation d'un serveur WEB
+
+Nous allons installer le service **nginx** pour créer notre serveur **WEB**. Ce service est léger et rapide, c'est donc une solution parfaite pour notre portail captif.
+
+```
+sudo apt-get install php5-fpm libgd2-xpm-dev php5-gmp libpcrecpp0 libxpm4 nginx
+```
+
+Une fois que l'installation est finie, ouvrez votre navigateur **WEB** et saisissez l'addresse **192.168.0.100** du point d'accès dans la barre de recherche. Si vous obtenez la page suivante c'est que votre serveur **WEB** est bien installé
+
+<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/web_nginx.png" width="400" />
+
+
+
+Nous allons créer un dossier qui contiendra nos pages **WEB** et nous lui donnerons les droits de lecture et d'écriture
+
+```
+sudo mkdir /home/pi/www
+sudo chown -R www-data:www-data /home/pi/www
+```
+
 ### Installation d'un serveur FTP
 
 La création d'un serveur **FTP** va nous permettre d'avoir un accès à distance à notre **RPi** afin de simplifier l'envoi de fichiers sur le serveur **WEB**.
@@ -343,30 +364,6 @@ sudo /etc/init.d/vsftpd restart
 ```
 
 <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/filezilla.png" width="600" />
-
-### Installation d'un serveur WEB
-
-Nous allons installer le service **nginx** pour créer notre serveur **WEB**. Ce service est léger et rapide, c'est donc une solution parfaite pour notre portail captif.
-
-```
-sudo apt-get install php5-fpm libgd2-xpm-dev php5-gmp libpcrecpp0 libxpm4 nginx
-```
-
-Une fois que l'installation est finie, ouvrez votre navigateur **WEB** et saisissez l'addresse **192.168.0.100** du point d'accès dans la barre de recherche. Si vous obtenez la page suivante c'est que votre serveur **WEB** est bien installé
-
-<img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/web_nginx.png" width="400" />
-
-
-
-Nous allons créer un dossier qui contiendra nos pages **WEB** et nous lui donnerons les droits de lecture et d'écriture
-
-```
-sudo mkdir /home/pi/www
-sudo chown -R www-data:www-data /home/pi/www
-```
-
-
-
 
 ***
 
