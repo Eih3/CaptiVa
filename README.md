@@ -403,6 +403,7 @@ Nous allons effectuer une copie du fichier initial de configuration du serveur *
 
 ```
 sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.old
+sudo rm /etc/vsftpd.conf
 ```
 
 Il faut maintenant accéder au fichier de configuration
@@ -411,7 +412,7 @@ Il faut maintenant accéder au fichier de configuration
 sudo nano /etc/vsftpd.conf
 ```
 
-et vous devez remplacer les paramètres existants avec les suivants :
+et copiez les lignes suivantes dans le fichier de configuration qui doit être vide
 
 ```
 listen=YES
