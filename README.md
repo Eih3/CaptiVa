@@ -330,23 +330,18 @@ ftpd_banner=CaptiVa FTP
 use_localtime=YES
 ```
 
-Il faut maintenant créer un dossier où seront stockés les pages de notre serveur **WEB**
-
-```
-sudo mkdir /home/pi/www
-```
-
 Afin d'autoriser le client **FTP** à accéder aux fichiers de l'utilisateur et ainsi de disposer des droits d'écritures
 
 ```
 sudo chown -R pi /home/pi
 ```
 
-Pour finir, redémarrer votre serveur **FTP** et connectez vous sur le serveur à l'aide d'un outil de gestion **FTP** tel que **FileZilla FTP**.
+Pour finir, redémarrez votre serveur **FTP** et connectez vous sur le serveur à l'aide d'un outil de gestion **FTP** tel que **FileZilla FTP**.
 
 ```
 sudo /etc/init.d/vsftpd restart
 ```
+
 <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/filezilla.png" width="600" />
 
 ### Installation d'un serveur WEB
@@ -366,28 +361,8 @@ Une fois que l'installation est finie, ouvrez votre navigateur **WEB** et saisis
 Nous allons créer un dossier qui contiendra nos pages **WEB** et nous lui donnerons les droits de lecture et d'écriture
 
 ```
-sudo mkdir /var/www
-sudo chown -R www-data:www-data /var/www
-```
-
-Modification de la configuration
-
-```
-sudo sed -i 's/worker_processes 4/worker_processes 1/g' /etc/nginx/nginx.conf
-
-sudo sed -i 's/application\/octet-stream/text\/html/g' /etc/nginx/nginx.conf
-
-sudo sed -i 's/var\/log\/nginx\/access.log/home\/pi\/\/lon\/log\/nginx-access.log/g' /etc/nginx/nginx.conf
-
-sudo sed -i 's/var\/log\/nginx\/error.log/home\/pi\/\/lon\/log\/nginx-error.log/g' /etc/nginx/nginx.conf
-```
-
-Création d'un nouveau serveur WEB
-
-```
-sudo sh -c 'echo "" > /etc/nginx/sites-available/default'
-
-sudo nano /etc/nginx/sites-available/default
+sudo mkdir /home/pi/www
+sudo chown -R www-data:www-data /home/pi/www
 ```
 
 
