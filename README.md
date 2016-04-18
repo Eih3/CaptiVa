@@ -330,6 +330,12 @@ ftpd_banner=CaptiVa FTP
 use_localtime=YES
 ```
 
+Il faut maintenant créer un dossier où seront stockés les pages de notre serveur **WEB**
+
+```
+sudo mkdir /home/pi/www
+```
+
 Afin d'autoriser le client **FTP** à accéder aux fichiers de l'utilisateur et ainsi de disposer des droits d'écritures
 
 ```
