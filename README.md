@@ -314,6 +314,24 @@ sudo mkdir /home/pi/www
 sudo chown -R www-data:www-data /home/pi/www
 ```
 
+Il nous faut maintenant configurer notre serveur **nginx**
+
+```
+nano /etc/nginx/sites-available/default
+```
+
+et cherchez la ligne suivante
+
+```
+index index.html index.htm index.nginx-debian.html;
+```
+
+pour la remplacer par cette ligne
+
+```
+index index.html index.htm index.php;
+```
+
 ### Installation d'un serveur FTP
 
 La création d'un serveur **FTP** va nous permettre d'avoir un accès à distance à notre **RPi** afin de simplifier l'envoi de fichiers sur le serveur **WEB**.
