@@ -370,10 +370,16 @@ sudo chown -R www-data:www-data /home/pi/www
 Afin de vérifier le bon fonctionnement de ces paramètres, nous allons créer un fichier **PHP** dans le dossier où seront stockées les pages du serveur **WEB**
 
 ```
-sudo echo "<?php phpinfo(); ?>" > /home/pi/www/index.php
+sudo nano /home/pi/www/index.php
 ```
 
-Une fois tout ceci fait, vous devez redémarrer **Nginx**  afin d’appliquer les modifications
+et ajoutez dans ce fichier la ligne suivante :
+
+```
+<?php phpinfo(); ?>
+```
+
+Une fois tout ceci fait, vous devez redémarrer le service **Nginx**  afin d’appliquer les modifications
 
 ```
 sudo /etc/init.d/nginx restart
