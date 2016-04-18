@@ -244,7 +244,7 @@ Nous allons configurer notre serveur **DHCP** afin d'attribuer automatiquement u
 sudo nano /etc/dhcp/dhcpd.conf
 ```
 
-Ajoutez les lignes de configuration suivantes
+Ajoutez les lignes de configuration suivantes à la fin du fichier
 
 ```
 subnet 192.168.0.0 netmask 255.255.255.0 {
@@ -292,7 +292,7 @@ sudo update-rc.d isc-dhcp-server enable
 Nous allons installer le service **nginx** pour créer notre serveur **WEB**. Ce service est léger et rapide, c'est donc une solution parfaite pour notre portail captif.
 
 ```
-sudo apt-get install php5-fpm libgd2-xpm-dev php5-gmp libpcrecpp0 libxpm4 nginx
+sudo aptitude install nginx php5-fpm
 ```
 
 Une fois que l'installation est finie, ouvrez votre navigateur **WEB** et saisissez l'addresse **192.168.0.100** du point d'accès dans la barre de recherche. Si vous obtenez la page suivante c'est que votre serveur **WEB** est bien installé
