@@ -351,7 +351,7 @@ sudo /etc/init.d/vsftpd restart
 
 ### Installation d'un serveur WEB
 
-Nous allons installer le service **nginx** pour le serveur **WEB** ainsi que **PHP**.
+Nous allons installer le service **nginx** pour créer notre serveur **WEB**. Ce service est léger et rapide, c'est donc une solution parfaite pour notre portail captif.
 
 ```
 sudo apt-get install php5-fpm libgd2-xpm-dev php5-gmp libpcrecpp0 libxpm4 nginx
