@@ -367,6 +367,22 @@ sudo mkdir /home/pi/www
 sudo chown -R www-data:www-data /home/pi/www
 ```
 
+Afin de vérifier le bon fonctionnement de ces paramètres, nous allons créer un fichier **PHP** dans le dossier où seront stockées les pages du serveur **WEB**
+
+```
+sudo echo "<?php phpinfo(); ?>" > /home/pi/www/index.php
+```
+
+Une fois tout ceci fait, vous devez redémarrer **Nginx**  afin d’appliquer les modifications
+
+```
+sudo /etc/init.d/nginx restart
+```
+
+Vous n'avez plus qu'à vous rendre sur la page du serveur à l'aide de votre navigateur **WEB** comme nous l'avons vu précédemment. Si tout c'est bien passé, vous devriez voir la page suivante
+
+
+
 ### Installation d'un serveur FTP
 
 La création d'un serveur **FTP** va nous permettre d'avoir un accès à distance à notre **RPi** afin de simplifier l'envoi de fichiers sur le serveur **WEB**.
