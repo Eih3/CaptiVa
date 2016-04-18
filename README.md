@@ -383,6 +383,8 @@ Vous n'avez plus qu'à vous rendre sur la page du serveur à l'aide de votre nav
 
 
 
+
+
 ### Installation d'un serveur FTP
 
 La création d'un serveur **FTP** va nous permettre d'avoir un accès à distance à notre **RPi** afin de simplifier l'envoi de fichiers sur le serveur **WEB**.
