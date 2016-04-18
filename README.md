@@ -295,7 +295,7 @@ sudo update-rc.d isc-dhcp-server enable
 
 ### Installation d'un serveur WEB
 
-Nous allons installer le service **nginx** pour créer notre serveur **WEB**. Ce service est léger et rapide, c'est donc une solution parfaite pour notre portail captif.
+Nous allons installer le service **Nginx** pour créer notre serveur **WEB**. Ce service est léger et rapide, c'est donc une solution parfaite pour notre portail captif.
 
 ```
 sudo aptitude install nginx php5-fpm
@@ -314,7 +314,7 @@ sudo mkdir /home/pi/www
 sudo chown -R www-data:www-data /home/pi/www
 ```
 
-Il nous faut maintenant configurer notre serveur **nginx**
+Il nous faut maintenant configurer notre serveur **Nginx**
 
 ```
 nano /etc/nginx/sites-available/default
@@ -330,6 +330,30 @@ pour la remplacer par cette ligne
 
 ```
 index index.html index.htm index.php;
+```
+
+Cela va rajouter une redirection automatique vers les fichiers « index.php » pour les dossiers du site, comportement par défaut de Apache.
+
+Nous allons maintenant activer php-fpm pour **Nginx**. Pour cela, toujours dans le même fichier, cherchez les lignes suivantes
+
+```
+#location ~ \.php$ {
+# include snippets/fastcgi-php.conf;
+#
+# # With php5-cgi alone:
+# fastcgi_pass 127.0.0.1:9000;
+# # With php5-fpm:
+# fastcgi_pass unix:/var/run/php5-fpm.sock;
+#}
+```
+
+et modifier les afin d’obtenir le résultat suivant :
+
+```
+location ~ \.php$ {
+include snippets/fastcgi-php.conf;
+fastcgi_pass unix:/var/run/php5-fpm.sock;
+}
 ```
 
 ### Installation d'un serveur FTP
