@@ -306,14 +306,6 @@ Une fois que l'installation est finie, ouvrez votre navigateur **WEB** et saisis
 <img src="https://github.com/Eih3/CaptiVa/blob/master/screenshot/web_nginx.png" width="400" />
 
 
-
-Nous allons créer un dossier qui contiendra nos pages **WEB** et nous lui donnerons les droits de lecture et d'écriture
-
-```
-sudo mkdir /home/pi/www
-sudo chown -R www-data:www-data /home/pi/www
-```
-
 Il nous faut maintenant configurer notre serveur **Nginx**
 
 ```
@@ -354,6 +346,25 @@ location ~ \.php$ {
 include snippets/fastcgi-php.conf;
 fastcgi_pass unix:/var/run/php5-fpm.sock;
 }
+```
+
+de la même façon, cherchez la ligne
+
+```
+root /var/www/html
+```
+
+et remplacez la par la ligne suivante :
+
+```
+root /home/pi/www
+```
+
+Nous allons créer un dossier qui contiendra nos pages **WEB** et nous lui donnerons les droits de lecture et d'écriture
+
+```
+sudo mkdir /home/pi/www
+sudo chown -R www-data:www-data /home/pi/www
 ```
 
 ### Installation d'un serveur FTP
