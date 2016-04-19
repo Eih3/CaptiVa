@@ -360,11 +360,10 @@ et remplacez la par la ligne suivante :
 root /home/pi/www
 ```
 
-Nous allons créer un dossier qui contiendra nos pages **WEB** et nous lui donnerons les droits de lecture et d'écriture
+Nous allons créer un dossier qui contiendra nos pages **WEB**
 
 ```
 sudo mkdir /home/pi/www
-sudo chown -R www-data:www-data /home/pi/www
 ```
 
 Afin de vérifier le bon fonctionnement de ces paramètres, nous allons créer un fichier **PHP** dans le dossier où seront stockées les pages du serveur **WEB**
