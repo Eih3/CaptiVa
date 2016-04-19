@@ -154,10 +154,10 @@ Il est possible de désactiver **wpa_supplicant**
 sudo mv /usr/share/dbus-1/system-services/fi.epitest.hostap.WPASupplicant.service ~/
 ```
 
-Il vous faut maintenant redémarrer votre **RPi** afin qu'il prenne en compte les modifications sur les interfaces réseaux.
+Il vous faut maintenant redémarrer le service qui gère les interfaces réseaux afin qu'il prenne en compte les modifications des paramètres
 
 ```
-sudo reboot
+sudo /etc/init.d/networking restart
 ```
 
 ### Création d'un point d'accès
@@ -292,6 +292,21 @@ Il faut être sur que notre serveur **DHCP** sera bien activé au prochain redé
 ```
 sudo update-rc.d isc-dhcp-server enable
 ```
+
+Nous allons réaliser le routage des packets entre l'interface **eth0** et **wlan0**. Pour cela mofifiez le fichier de configuration **sysctl.conf**
+
+```
+sudo nano /etc/sysctl.conf
+```
+
+Trouvez la ligne suivante
+
+```
+#net.ipv4.ip_forward=1
+```
+
+et activez la en supprimant **#** en début de ligne
+
 
 ### Installation d'un serveur WEB
 
