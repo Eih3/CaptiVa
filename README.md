@@ -305,7 +305,11 @@ Trouvez la ligne suivante
 #net.ipv4.ip_forward=1
 ```
 
-et activez la en supprimant **#** en début de ligne
+et activez la en supprimant **#** en début de ligne. Ensuite vous devez rediriger tous les packets entrant sur le parfeu
+
+```
+sudo iptables -A POSTROUTING -t nat -o eth0 -j MASQUERADE
+```
 
 
 ### Installation d'un serveur WEB
