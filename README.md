@@ -16,8 +16,7 @@
     - [Mise à jour de votre distribution Linux](#mise-à-jour-de-votre-distribution-linux)
     - [Paramétrage de la carte WiFi](#paramétrage-de-la-carte-wifi)
     - [Création d'un point d'accès](#création-dun-point-daccès)
-    - [Specifying a custom TOC title](#specifying-a-custom-toc-title)
-    - [Specifying a maximum heading level for TOC entries](#specifying-a-maximum-heading-level-for-toc-entries)
+      - [Configuration Hostapd](#configuration-hostapd)
 
 ### Matériel Requis
 
