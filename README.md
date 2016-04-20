@@ -59,7 +59,7 @@ Pour vous connecter en mode **SSH** :
 
 * Password : ```captiva```
 
-## Installation à partir de zéro <a id="install-2"></a>
+## Installation à partir de zéro
 
 Vous avez choisi d'installer vous même la solution **CaptiVa** en passant par la case bidouille et programmation. Nous allons ensemble apprendre à configurer un point d'accès **WiFi** pour permettre le partage d'une connexion **Internet** pour de multiples clients.
 
