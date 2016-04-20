@@ -14,9 +14,8 @@
     - [Téléchargement de Raspbian](#téléchargement-de-raspbian)
     - [Avoir un accès au système](#avoir-un-accès-au-système)
     - [Mise à jour de votre distribution Linux](#mise-à-jour-de-votre-distribution-linux)
-    - [Using doctoc to generate links compatible with other sites](#using-doctoc-to-generate-links-compatible-with-other-sites)
-      - [Example](#example)
-    - [Specifying location of toc](#specifying-location-of-toc)
+    - [Paramétrage de la carte WiFi](#paramétrage-de-la-carte-wifi)
+    - [Création d'un point d'accès](#création-d'un-point-d'accès)
     - [Specifying a custom TOC title](#specifying-a-custom-toc-title)
     - [Specifying a maximum heading level for TOC entries](#specifying-a-maximum-heading-level-for-toc-entries)
 
