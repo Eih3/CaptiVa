@@ -9,9 +9,17 @@
 
 ## SOMMAIRE
 
-  * [Installation de CaptiVa](#install-1)
-  * [Installation à partir d'une image neuve](#install-2)
-
+  - [Installation de CaptiVa](#installation-de-captiva)
+  - [Installation à partir d'une image neuve](#install-2)
+    - [Adding toc to all files in a directory and sub directories](#adding-toc-to-all-files-in-a-directory-and-sub-directories)
+    - [Update existing doctoc TOCs effortlessly](#update-existing-doctoc-tocs-effortlessly)
+    - [Adding toc to individual files](#adding-toc-to-individual-files)
+      - [Examples](#examples)
+    - [Using doctoc to generate links compatible with other sites](#using-doctoc-to-generate-links-compatible-with-other-sites)
+      - [Example](#example)
+    - [Specifying location of toc](#specifying-location-of-toc)
+    - [Specifying a custom TOC title](#specifying-a-custom-toc-title)
+    - [Specifying a maximum heading level for TOC entries](#specifying-a-maximum-heading-level-for-toc-entries)
 
 ### Matériel Requis
 
@@ -26,7 +34,7 @@ En fait ce modèle de carte inclut une interface **WiFi** et une interface **Blu
 
 [1] Votre dongle **WiFi** devra supporter le mode **AP** (mode infrastructure) ainsi que le mode **maître**.
 
-## Installation de CaptiVa  <a id="install-1"></a>
+## Installation de CaptiVa  
 
 Il s'agit d'une image prête à être gravée sur une carte SD et vous évite donc de rentrer dans le coeur du système de votre **RaspBerry Pi**.
 

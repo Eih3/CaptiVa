@@ -14,7 +14,9 @@ $mac = shell_exec("sudo $arp -an " . $ip);
 preg_match('/..:..:..:..:..:../',$mac , $matches);
 $mac = @$matches[0];
 
-echo $mac;
+print "Adresse IP : " . $ip . " | Adresse MAC : " . $mac;
+
+
 
 // if MAC Address couldn't be identified.
 
