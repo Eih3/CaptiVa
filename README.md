@@ -17,6 +17,8 @@
     - [Paramétrage de la carte WiFi](#paramétrage-de-la-carte-wifi)
     - [Création d'un point d'accès](#création-dun-point-daccès)
       - [Configuration Hostapd](#configuration-hostapd)
+      - [Configuration du serveur DHCP](#configuration-du-serveur-dhcp)
+    - [Installation d'un serveur WEB](#installation-dun-serveur-web)
 
 ### Matériel Requis
 
