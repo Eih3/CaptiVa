@@ -10,7 +10,7 @@
 ## SOMMAIRE
 
   - [Installation de CaptiVa](#installation-de-captiva)
-  - [Installation à partir d'une image neuve](#install-2)
+  - [Installation à partir d'une image neuve](#installation-a-partir-dune-image)
     - [Adding toc to all files in a directory and sub directories](#adding-toc-to-all-files-in-a-directory-and-sub-directories)
     - [Update existing doctoc TOCs effortlessly](#update-existing-doctoc-tocs-effortlessly)
     - [Adding toc to individual files](#adding-toc-to-individual-files)
