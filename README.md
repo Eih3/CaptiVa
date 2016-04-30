@@ -484,4 +484,4 @@ sudo /etc/init.d/vsftpd restart
 
 ***
 
-Made with ❤ by **Waf** & **Eih3**
+Made by **Waf**
